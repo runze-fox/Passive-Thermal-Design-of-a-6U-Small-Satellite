@@ -28,6 +28,25 @@ In a circular 600 km dawn-dusk SSO (LTAN 06:00/18:00), the solar vector is perpe
 - The $-Y$ cross-track face is permanently **anti-Sun** (facing deep space, shaded, solar exposure factor $= 0.0$).
 Therefore, the radiator is mounted on the **$-Y$ face** (anti-Sun cross-track face), which has the lowest integrated Sun and Earth view factors.
 
+### Orbit Geometry & Thermal Zoning Layout
+
+<p align="center">
+  <img src="report/sso_orbit.png" width="45%" alt="SSO Orbit Geometry" />
+  &nbsp;&nbsp;
+  <img src="report/thermal_zoning.png" width="45%" alt="Passive Thermal Zoning Layout" />
+</p>
+
+*Figure 1: Dawn-Dusk SSO Orbit Geometry (left) and 6U CubeSat Passive Thermal Zoning Layout (right).*
+
+### C. 6-Node Lumped-Parameter Network
+The 6-node lumped-parameter thermal network architecture, conductive couplings $G_{ij}$, and environmental radiation boundary interfaces are shown below:
+
+<p align="center">
+  <img src="report/thermal_network.png" width="70%" alt="6-Node Thermal Network Topology" />
+</p>
+
+*Figure 2: 6-Node Lumped-Parameter Thermal Network Architecture.*
+
 ---
 
 ## 2. Repository Structure
@@ -123,3 +142,23 @@ To execute the test suite (which includes the single-node radiation check, the t
 pytest -v
 ```
 All model parameters are traceable to `data/assumptions_register.csv` to ensure data provenance and transparency.
+
+---
+
+## 6. Simulation Results & Sizing Trade-Offs
+
+Under the continuous sunlit bounding hot case ($\beta = 74^\circ$), the passive thermal design successfully maintains all component temperatures well within their operational margins:
+
+<p align="center">
+  <img src="outputs/bounding_hot/temperature_history.png" width="80%" alt="Nodal Temperature Histories Under Bounding Hot Case" />
+</p>
+
+*Figure 3: Nodal Temperature Histories Under Bounding Hot Case (Continuous Sunlight Dawn-Dusk SSO Solstice).*
+
+A system-level radiator sizing sweep trade-off study demonstrates the balance between hot-case avionics peak temperatures and cold-case heater power budget:
+
+<p align="center">
+  <img src="outputs/trades/radiator_area_system_trade.png" width="80%" alt="Radiator Area System Trade-Off" />
+</p>
+
+*Figure 4: Dual-Axis Radiator Sizing Trade-Off (Hot Case Peak Avionics Temp vs. Cold Case Min Battery Temp).*
