@@ -1,0 +1,7 @@
+node_i,node_j,conductance_w_k,link_type,basis,source_or_assumption_id,notes
+battery,structure,0.5,conductive,mount,ASSUMP_G_BAT_STRUCT,Moderately isolated battery mount
+avionics,structure,2.0,conductive,pcb_stands,ASSUMP_G_AV_STRUCT,Standard card cage conduction
+payload,structure,1.5,conductive,bracket,ASSUMP_G_PL_STRUCT,Payload mounting bracket
+structure,radiator,0.5,conductive,chassis_joint,ASSUMP_G_STRUCT_RAD,Bolted joint to external radiator
+avionics,radiator,5.0,conductive,strap,ASSUMP_G_AV_RAD,Dedicated thermal strap (flexible copper)
+external_shell,structure,1.2,conductive,structural_posts,ASSUMP_G_SHELL_STRUCT,Conduction through primary fasteners

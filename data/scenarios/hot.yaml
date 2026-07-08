@@ -1,0 +1,27 @@
+scenario_name: "bounding_hot"
+description: "High-beta dawn-dusk SSO bounding hot case: continuous sunlight, no umbral eclipse, maximum sustained external heat input"
+material_property_type: "bol"
+environment:
+  solar_flux_w_m2: 1420.0
+  albedo: 0.35
+  earth_ir_w_m2: 260.0
+  space_temperature_k: 3.0
+  altitude_km: 600.0
+  beta_deg: 74.0
+  orbit_type: "dawn_dusk_sso"
+  ltan: "06:00"
+payload_power:
+  dissipation_active_w: 15.0
+  dissipation_inactive_w: 0.0
+  duration_active_s: 1200.0
+  phase_shift_s: 0.0
+  notes: "placeholder_for_testing"
+heater:
+  power_w: 10.0
+  t_on_c: 5.0
+  t_off_c: 10.0
+simulation:
+  max_orbits: 15
+  timestep_s: 2.0
+  convergence_threshold_c: 0.05
+  initial_temperature_c: 35.0

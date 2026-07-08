@@ -1,0 +1,73 @@
+{
+  "scenario": "bounding_hot",
+  "result": "robust pass",
+  "periodic_orbits_simulated": 8,
+  "converged": true,
+  "selected_assumption_ids": [
+    "ASSUMP_BAT_MASS",
+    "ASSUMP_AV_MASS",
+    "ASSUMP_PL_MASS",
+    "ASSUMP_STRUCT_MASS",
+    "ASSUMP_RAD_MASS",
+    "ASSUMP_SHELL_MASS",
+    "ASSUMP_G_BAT_STRUCT",
+    "ASSUMP_G_AV_STRUCT",
+    "ASSUMP_G_PL_STRUCT",
+    "ASSUMP_G_STRUCT_RAD",
+    "ASSUMP_G_AV_RAD",
+    "ASSUMP_G_SHELL_STRUCT",
+    "ASSUMP_SOLAR_FLUX",
+    "ASSUMP_ALBEDO",
+    "ASSUMP_EARTH_IR",
+    "ASSUMP_SPACE_TEMP",
+    "ASSUMP_HEATER_POWER",
+    "ASSUMP_HEATER_ON",
+    "ASSUMP_HEATER_OFF"
+  ],
+  "battery": {
+    "min_c": 34.965226559467624,
+    "max_c": 35.39109946808088,
+    "lower_margin_c": 44.965226559467624,
+    "upper_margin_c": 9.608900531919119,
+    "status": "robust pass"
+  },
+  "avionics": {
+    "min_c": 38.0988347740751,
+    "max_c": 39.16752505919152,
+    "lower_margin_c": 58.0988347740751,
+    "upper_margin_c": 20.83247494080848,
+    "status": "robust pass"
+  },
+  "payload": {
+    "min_c": 34.008133702963164,
+    "max_c": 40.301565232051985,
+    "lower_margin_c": 44.008133702963164,
+    "upper_margin_c": 9.698434767948015,
+    "status": "robust pass"
+  },
+  "structure": {
+    "min_c": 33.456780212537126,
+    "max_c": 34.81632757230199,
+    "lower_margin_c": 73.45678021253713,
+    "upper_margin_c": 45.18367242769801,
+    "status": "robust pass"
+  },
+  "radiator": {
+    "min_c": 36.900294389097894,
+    "max_c": 37.95421141018272,
+    "lower_margin_c": 136.9002943890979,
+    "upper_margin_c": 62.04578858981728,
+    "status": "robust pass"
+  },
+  "external_shell": {
+    "min_c": 21.981949440189965,
+    "max_c": 22.59288643526378,
+    "lower_margin_c": 121.98194944018996,
+    "upper_margin_c": 77.40711356473622,
+    "status": "robust pass"
+  },
+  "heater": {
+    "duty_cycle": 0.0,
+    "energy_per_orbit_wh": 0.0
+  }
+}

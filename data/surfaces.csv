@@ -1,0 +1,8 @@
+surface_id,attached_node_id,area_m2,material_id,solar_exposure_factor,earth_view_factor,space_view_factor,notes
+plus_x_face,external_shell,0.060,AZ-93 Silicate,0.1,0.2,0.8,Velocity face with white coating to minimize solar absorption
+minus_x_face,external_shell,0.060,AZ-93 Silicate,0.1,0.2,0.8,Anti-velocity face with white coating to minimize solar absorption
+plus_y_face,external_shell,0.030,solar_cell_assembly,0.9,0.3,0.7,Sun-facing cross-track face with body-mounted solar arrays
+minus_y_face,external_shell,0.010,AZ-93 Silicate,0.0,0.3,0.7,Remaining non-radiator portion of anti-Sun face; white paint
+plus_z_face,external_shell,0.020,AZ-93 Silicate,0.2,0.8,0.2,End face Z+; near-nadir facing; white paint
+minus_z_face,external_shell,0.020,AZ-93 Silicate,0.0,0.0,1.0,End face Z-; deep-space facing; white paint
+radiator_surface,radiator,0.020,0.005″ FEP/Ag/Inconel,0.0,0.3,0.7,Dedicated radiator mounted on anti-Sun -Y face; silvered FEP

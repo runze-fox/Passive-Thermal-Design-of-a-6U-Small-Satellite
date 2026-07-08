@@ -1,0 +1,20 @@
+assumption_id,parameter,value,unit,classification,rationale,source_or_method,impact_if_wrong,revision_status
+ASSUMP_BAT_MASS,battery mass,1.5,kg,placeholder_for_testing,Typical 6U battery weight,Engineering estimation,Alters thermal inertia,initial
+ASSUMP_AV_MASS,avionics mass,1.0,kg,placeholder_for_testing,Standard OBC/EPS boards mass,Engineering estimation,Alters thermal inertia,initial
+ASSUMP_PL_MASS,payload mass,2.0,kg,placeholder_for_testing,Typical camera payload mass,Engineering estimation,Alters thermal inertia,initial
+ASSUMP_STRUCT_MASS,structure mass,3.0,kg,placeholder_for_testing,Aluminum 6U frame weight,Engineering estimation,Alters thermal inertia,initial
+ASSUMP_RAD_MASS,radiator mass,0.5,kg,placeholder_for_testing,Aluminum sheet radiator mass,Engineering estimation,Alters thermal inertia,initial
+ASSUMP_SHELL_MASS,external shell mass,1.5,kg,placeholder_for_testing,External panel assembly mass,Engineering estimation,Alters thermal inertia,initial
+ASSUMP_G_BAT_STRUCT,battery-structure conductance,0.5,W/K,placeholder_for_testing,Nylon washers and brackets,Engineering estimation,Heater duty cycle change,initial
+ASSUMP_G_AV_STRUCT,avionics-structure conductance,2.0,W/K,placeholder_for_testing,PCB card rail contact area,Engineering estimation,Board temperature rise,initial
+ASSUMP_G_PL_STRUCT,payload-structure conductance,1.5,W/K,placeholder_for_testing,Bracket contact area conductance,Engineering estimation,Payload temperature rise,initial
+ASSUMP_G_STRUCT_RAD,structure-radiator conductance,0.5,W/K,placeholder_for_testing,Bolted joint conductance,Engineering estimation,Radiator efficiency change,initial
+ASSUMP_G_AV_RAD,avionics-radiator conductance,5.0,W/K,placeholder_for_testing,High-conductivity copper strap,Engineering estimation,Board temperature rise,initial
+ASSUMP_G_SHELL_STRUCT,shell-structure conductance,1.2,W/K,placeholder_for_testing,Structural posts connection,Engineering estimation,Internal-external decoupling,initial
+ASSUMP_SOLAR_FLUX,solar flux,1361.0,W/m2,public_reference,Solar constant at 1 AU,ASTM E490,Alters environment input,initial
+ASSUMP_ALBEDO,albedo coefficient,0.3,dimensionless,public_reference,Average Earth albedo fraction,NASA SP-8224,Alters environment input,initial
+ASSUMP_EARTH_IR,Earth IR flux,230.0,W/m2,public_reference,Global average Earth IR emission,NASA SP-8224,Alters environment input,initial
+ASSUMP_SPACE_TEMP,deep space temperature,3.0,K,public_reference,CMB background radiation temp,Standard physics,Minimal impact,initial
+ASSUMP_HEATER_POWER,battery heater power,10.0,W,placeholder_for_testing,Survival heater sizing,Sizing calculation,Battery cold limits breach,initial
+ASSUMP_HEATER_ON,heater ON temperature,5.0,C,placeholder_for_testing,Safe battery operational margin,Battery chemistry specs,Battery cold limits breach,initial
+ASSUMP_HEATER_OFF,heater OFF temperature,10.0,C,placeholder_for_testing,Hysteresis deadband height,Battery chemistry specs,Excessive heater power draw,initial

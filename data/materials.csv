@@ -1,0 +1,6 @@
+material_id,intended_role,alpha_s_BOL,epsilon_IR,source_table,source_url,concise_notes
+AZ-93 Silicate,general external-shell / white-coating candidate,0.16,0.90,Table 7-3,https://www.nasa.gov/smallsat-institute/sst-soa/thermal-control/,Inorganic white thermal control paint. Low solar absorptance and high thermal emittance.
+0.005″ FEP/Ag/Inconel,primary radiator candidate,0.07,0.79,Table 7-4,https://www.nasa.gov/smallsat-institute/sst-soa/thermal-control/,0.005 inch FEP/Ag/Inconel tape. Excellent low solar absorptance and high emittance.
+VDA/200HN/PSA,low-emittance insulation / reference comparison,0.08,0.03,Table 7-4,https://www.nasa.gov/smallsat-institute/sst-soa/thermal-control/,VDA/200HN/PSA tape. Low absorptance and extremely low emittance (ideal for MLI reflectors).
+Z306 Polyurethane,high-absorptance comparison case,0.92,0.89,Table 7-3,https://www.nasa.gov/smallsat-institute/sst-soa/thermal-control/,High-absorptance matte black paint comparison case; not a radiator recommendation.
+solar_cell_assembly,solar-array faces,0.73,0.82,Section 7.1,https://www.nasa.gov/smallsat-institute/sst-soa/thermal-control/,Typical solar array surface properties (high absorptance and high emittance).
