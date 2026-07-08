@@ -16,7 +16,7 @@ LATEX_EN = r"""\documentclass[11pt,a4paper]{article}
 \usepackage{float}
 
 \title{\textbf{Passive Thermal Design of a 6U Small Satellite Under a High-Beta Bounding Hot Case}}
-\author{\textbf{Lead Thermal Engineer} \\ \textit{Aerospace Systems Engineering Division}}
+\author{\textbf{Runze Shi} \\ \textit{Master of Applied Science, Mechanical Engineering}}
 \date{}
 
 \begin{document}
@@ -192,7 +192,7 @@ LATEX_ZH = r"""\documentclass[UTF8,11pt,a4paper]{ctexart}
 \usepackage{float}
 
 \title{\textbf{高 Beta 全日照边界工况下的小卫星被动热控设计与散热器尺寸权衡研究}}
-\author{\textbf{热控系统主任设计师} \\ \textit{空间系统工程部}}
+\author{\textbf{石润泽} \\ \textit{应用科学硕士，机械工程}}
 \date{}
 
 \begin{document}
