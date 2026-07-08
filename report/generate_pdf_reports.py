@@ -192,7 +192,7 @@ LATEX_ZH = r"""\documentclass[UTF8,11pt,a4paper]{ctexart}
 \usepackage{float}
 
 \title{\textbf{高 Beta 全日照边界工况下的小卫星被动热控设计与散热器尺寸权衡研究}}
-\author{\textbf{石润泽} \\ \textit{应用科学硕士，机械工程}}
+\author{\textbf{时润泽} \\ \textit{应用科学硕士，机械工程}}
 \date{}
 
 \begin{document}
